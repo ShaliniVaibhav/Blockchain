@@ -1,19 +1,19 @@
 # Blockchain Project
 
-#In this project we have our ERC20 contract created, compiled using Remix IDE and deployed on Ethereum Goerli Testnet using MetaMask account.
+## In this project we have our ERC20 contract created, compiled using Remix IDE and deployed on Ethereum Goerli Testnet using MetaMask account.
 
-Step 1: Create the solidity file for ERC20 contract
-Step 2: Compile it
-Step 3: Select "Injected Provider - Metamask" under environment section to connect to our MetaMask account and deploy it
-Step 4: Once deployed successfully, verify and publish the contract using Etherscan explorer.
-Step 5: Import Tokens in MetaMask by adding token contract address.
+- Step 1: Create the solidity file for ERC20 contract
+- Step 2: Compile it
+- Step 3: Select "Injected Provider - Metamask" under environment section to connect to our MetaMask account and deploy it
+- Step 4: Once deployed successfully, verify and publish the contract using Etherscan explorer.
+- Step 5: Import Tokens in MetaMask by adding token contract address.
 
-#Building a Python application for interacting with Ethereum Goerli Testnet and performing token distribution
+## Building a Python application for interacting with Ethereum Goerli Testnet and performing token distribution
 
-#Pre-requisites
+# Pre-requisites
 
-1.Install Python3
-2.Install PIP
+1.Install Python3  
+2.Install PIP  
 ```sudo apt install python3-pip```
 3.Install web3
 ```pip install web3```
