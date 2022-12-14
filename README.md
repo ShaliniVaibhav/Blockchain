@@ -64,3 +64,8 @@ Use the file named "Dockerfile" in this repository, for docker setup and then we
 For building and pushing the code to Docker Hub, use the follwing commands:  
 - ```docker build -t [name:tag]```. 
 - ```docker push [name:tag]```. 
+  
+Link to my DockerHub repository:  
+https://hub.docker.com/repository/docker/shalinivaibhav/blockchain-21196354
+
+- Command to pull the repo from Docker Hub : docker pull shalinivaibhav/blockchain-21196354
