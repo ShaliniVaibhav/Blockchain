@@ -10,26 +10,26 @@
 
 ## Building a Python application for interacting with Ethereum Goerli Testnet and performing token distribution
 
-# Pre-requisites
+## Pre-requisites
 
-1.Install Python3  
-2.Install PIP  
+- Install Python3  
+- Install PIP  
 ```sudo apt install python3-pip```. 
-3.Install web3. 
+- Install web3. 
 ```pip install web3```. 
-4.Install decouple. 
+- Install decouple. 
 ```pip install python-decouple```. 
-5.IDE (example VS Code). 
-6.Install Docker desktop. 
-7.Optional: Setting up our infura.io account. 
+- IDE (example VS Code). 
+- Install Docker desktop. 
+- Optional: Setting up our infura.io account. 
 
-# Setting up ENV file, with the following details, add your value to it, based on your account and contract.  
+## Setting up ENV file, with the following details, add your value to it, based on your account and contract.  
   
-INFURA_URL=. 
-CONTRACT_ADDRESS=. 
-OWNER_ADDRESS=. 
-SUPER_SECRET_PRIVATE_KEY=. 
-SEED_PHRASE=. 
+- INFURA_URL=
+- CONTRACT_ADDRESS= 
+- OWNER_ADDRESS=
+- SUPER_SECRET_PRIVATE_KEY=
+- SEED_PHRASE=
   
 ## Python files for performing various activities. 
   
@@ -50,17 +50,17 @@ For building a web server, run the python file by using the command:
 ### DOCKER. 
 Use the file named "Dockerfile" in this repository, for docker setup and then we can build, run the image and push to Docker Hub. 
   
-For view running docker containers, run this command:  
-```docker ps```. 
-For building,  
-```docker build -t [name]```. 
-For running the docker image. 
-```docker run -p 8090:8080 --name {name} -d {name}```. 
-To start/stop a container. 
-```docker start/stop [name]```. 
-To run docker-compose. 
+- For view running docker containers, run this command:  
+```docker ps```
+- For building,  
+```docker build -t [name]```
+- For running the docker image. 
+```docker run -p 8090:8080 --name {name} -d {name}```
+- To start/stop a container. 
+```docker start/stop [name]```
+- To run docker-compose. 
 ```docker-compose up```. 
   
 For building and pushing the code to Docker Hub, use the follwing commands:  
-```docker build -t [name:tag]```. 
-```docker push [name:tag]```. 
+- ```docker build -t [name:tag]```. 
+- ```docker push [name:tag]```. 
